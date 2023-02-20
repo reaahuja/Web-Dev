@@ -1,0 +1,38 @@
+/* TAG SELECTORS */
+body{
+    background-color: powderblue;
+}
+
+hr{
+    
+    border-style: dotted none none;
+    color: white;
+    width: 10%;
+    border-width: 7px;
+}
+
+img{
+    height: 150px;
+    border-radius: 100%;
+}
+
+h1{
+    color: #66bfbf;
+}
+
+h3{
+    color: #66bfbf;
+}
+
+/* CLASS SELECTORS */
+.subtitle{
+    color:purple;
+}
+
+.table:hover{
+    background-color: #66bfbf;
+}
+/* ID SELECTORS */
+#header{
+    color: maroon;
+}
