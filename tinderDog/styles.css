@@ -1,0 +1,185 @@
+body{
+    font:'Monserrat';
+    text-align: center;
+}
+
+h1, h2, h3{
+    font: 'Montserrat-Black';
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-container{
+    background-color: white;
+    color: black;
+}
+
+.colored-container{
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* Home Container */
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+}
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.home-header{
+    font-size: 3.5rem;
+}
+
+
+/* Navigation Bar */
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.nav-item{
+    margin: 0px 1rem;
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+/* Image */
+.dog-img{
+    transform: rotate(30deg);
+    width:65%;
+    position:absolute;
+}
+
+/* Responsive */
+
+@media (max-width:1028px){
+    .dog-img{
+        position: static;
+        transform: rotate(0);
+        width:50%;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+
+/* Features */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+
+.features-header{
+    font-size: 1.5rem;
+    margin: 1rem 0rem ;
+}
+
+.features-desc{
+    padding: 0 15%;
+}
+
+.icon{
+    color: #ef8172;
+
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item{
+    padding: 0px 100px 0px 100px;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+}
+
+.testimonal-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.sponsor{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* Pricing */
+
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+
+/* cta-header */
+.home-header{
+    font-size: 3.5rem;
+    color: white;
+}
+
+/* Footer */
+
+.social-media{
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
