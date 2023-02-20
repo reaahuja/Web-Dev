@@ -1,0 +1,189 @@
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color:  #66BFBF;
+    line-height: 2;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 6px;
+    width:5%;
+    color: #EAF6F6;
+    margin: 100px auto 100px auto;
+
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#40514E
+}
+
+p{
+    line-height:2;
+}
+
+.compeng{
+    text-decoration: underline;
+}
+
+
+
+.pfp{
+    height: 100px;
+    width: 75px;
+    border-radius: 100%;
+}
+
+
+.bio{
+    color:#40514E;
+    margin:75px auto auto auto;
+    width:30%;
+}
+
+
+
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.middle-container{
+    background-color: white;
+
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px 0 40px 0;
+    margin-top:100px;
+
+
+}
+
+.footer-link{
+    color:#11999E;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+.footer-link:hover{
+    color:#EAF6F6;
+}
+
+.btn{
+    display: inline;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.contact-desc{
+    margin: 40px auto 70px auto;
+
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: 13px;
+    padding-top:20px;
+}
+
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    color:#40514E;
+}
+
+.programming{
+    float:left;
+    width:25%;
+    height:25%;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+.cooking{
+    float:right;
+    width:25%;
+    height:25%;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+
+
+
+/*
+Questions: 
+- Why does using auto as a margin for some cases not work 
+    - it does work you forgot to put px
+- How does absolute and relative positioning work 
+    - relative is relative to current position 
+    - absolute removes from flow and is relative to parent body
+    from wherever it has been randomly placed
+- Why does using margin not work for inline elements
+    - they don't interrupt the flow 
+*/
+
+
+
